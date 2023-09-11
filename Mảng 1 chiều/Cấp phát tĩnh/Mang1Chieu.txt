@@ -1,0 +1,4 @@
+TÍNH CHẤT CỦA MẢNG 1 CHIỀU
+- Các phần tử mảng nằm liên tiếp nhau trong bộ nhớ máy tính
+- Có thể truy xuất trực tiếp đến từng phần tử thông qua toán tử chỉ số []
+- Các ô nhớ của mảng được đánh số từ 0 đến số lượng phần tử mảng - 1

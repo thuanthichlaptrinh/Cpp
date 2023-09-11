@@ -1,0 +1,29 @@
+======================= CHUỖI BÊN C++ ======================
+- Thư viện: string
+- Kí tự: là các chữ cái riếng lẻ nhau và được đặt trong dấu nháy đơn
+VD: 'l', 'm'
+- Chuỗi: là tập hợp 1 hoặc nhiều kí tự và được đặp trong dấu ngoặc kép
+VD: "l", "Lap trinh"
+- Cú pháp: string ten_bien;
+
+======================= CHUỖI BÊN C ========================
+- Thư viện: string.h
+Chuỗi: là tập hợp 1 hoặc nhiều kí tự lại với nhau
+=> bản chất: là mảng 1 chiều các kí tự
+- Cú pháp: char HoTen[30]; // khai báo mảng kí tự chứa 29 kí tự - ô nhớ cuối cùng là NULL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

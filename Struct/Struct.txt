@@ -1,0 +1,10 @@
+- Struct: là một dạng bản ghi, dùng để lưu trữ những thông tin chung nhất 
+của nhiều đối tượng dữ liệu, bản chất là 1 kiểu dữ liệu do người lập trình định nghĩa
+
+- Đặt vấn đề:
+    + kiểu dữ liệu nào: chỉ lưu kiểu dữ liệu đó k đc lưu lkd khác
+
+- Muốn lưu thông tin sinh viên
+    + Tên sinh viên: chuỗi
+    + Mã số sinh viên: chuỗi
+    + Điểm: số thực

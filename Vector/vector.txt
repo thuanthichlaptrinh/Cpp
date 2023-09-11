@@ -1,0 +1,41 @@
+======================== ƯU ĐIỂM ======================== 
+1. Vector bản chất là 1 mảng 1 chiều - cụ thể nó là 1 cái mảng động - nó là 1 cái siêu mảng động 
++ Vector có thể chứa các kiểu dữ liệu cơ sở (int, float, double, char...) và kiểu dữ liệu do người lập trình định nghĩa - struct, class
+
+TẠI SAO NÓ LÀ SIÊU MẢNG ĐỘNG
++ Vector có hết tất cả các tính chất mà mảng 1 chiều (mảng tĩnh và mảng động) và có thêm 1 số tính chất riêng của nó nữa (khắc phục nhược điểm của mảng tĩnh và mảng động)
++ Nếu như chúng ta dùng mảng tĩnh hay mảng động thì KHAI BÁO KÍCH THƯỚC CỦA MẢNG CẦN THAO TÁC TRƯỚC. Còn vector không cần khai báo trước số lượng phần tử cần dùng - bởi vì nó được hỗ trợ cái cơ chế tự động thêm phần tử vào cuối (push_back())
++ Tự động đi giải phóng vùng nhớ khi chương trình kết thúc
++ Các thao tác thêm, xóa , tìm kiếm, sắp xếp bên mảng 1 chiều (mảng tĩnh hay mảng động) thì chúng ta phải đi cài đặt - còn bên vector nó sẽ hỗ trợ chúng ta các hàm xử lí tương tự
+
+======================== KHUYẾT ĐIỂM ======================== 
+- Tốn bộ nhớ hơn mảng tĩnh và mảng động (do cơ chế container buộc phải tạo ra thêm các vùng nhớ riêng để quản lí chặt chẽ hơn) 
+
+String, Vector, List, Stack, Queue...: thuộc thư viện chuẩn của C++ - STL(Standard Template Library)
+
+=================== MỘT SỐ THƯ VIỆN HỖ TRỢ ===================
+size() – Trả về số phần tử trong vectơ.
+max_size() – Trả về số phần tử tối đa mà vectơ có thể chứa.
+capacity() – Trả về kích thước của không gian lưu trữ hiện được phân bổ cho vectơ được biểu thị bằng số phần tử.
+resize(n) – Thay đổi kích thước vùng chứa để nó chứa các phần tử 'n'.
+empty() – Trả về liệu vùng chứa có trống không.
+shrink_to_fit() – Giảm dung lượng của vùng chứa để phù hợp với kích thước của nó và hủy tất cả các phần tử vượt quá dung lượng.
+reserve() – Yêu cầu dung lượng vectơ ít nhất đủ để chứa n phần tử.
+
+push_back(): Thêm phần tử vào cuối vector 
+pop_back(): xóa phần tử cuối cùng trong vector
+front(): trả về phần tử đầu tiên của vector
+back(): trả về phần tử cuối cùng của vector
+at(): trả về phần tử thứ i <=> a[i] trong mảng 1 chiều
+erase: xóa phần tử trong vector
+    + dạng 1: erase(<ten vector>.begin() + <so nguyen x>): Xóa phần tử tại vị trí x trong vector (vị trí trong vector bắt đầu từ 0)
+    + dạng 2: erase(<ten vector>.begin() + <so nguyen x>, <ten vector>.begin() + <so nguyên y>) : xóa các phần tử mảng từ vị trí x cho đến y - 1
+clear(): xóa tất cả phần tử trong vector
+insert: Thêm phần tử vào trong vector
+    + dạng 1: insert(<tên vector>.begin() + <số nguyên x>, <giá trị cần chèn>): chèn vào vị trí x trong mảng
+    + dạng 2: insert(<tên vector>.begin() + <số nguyên x>, <số lần chèn y>, <giá trị cần chèn>): chèn y lần giá trị vào vị trí x trong vector
+    + dạng 3: insert(<tên vector>.begin() + <số nguyên x>, <tên vector a>.begin() + <số nguyên y>, <tên vector a>):
+
+
+
+
