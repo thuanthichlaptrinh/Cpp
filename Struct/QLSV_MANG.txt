@@ -1,0 +1,5 @@
+2001225035, Ngo Minh Thuan, Nam, 19/05/2004, 9.0
+1432432435, Nguyen Van Teo, Nam, 20,02/2003, 7.6
+3124143243, Nguyen Van A, Nam, 20/07/2003, 7.0
+6567547547, Ngo Thi Diem Trinh, Nu, 21/03/2002, 8.4
+3414324432, Nguyen Van B, Nam, 19/03/2005, 6.0

@@ -1,0 +1,21 @@
+int *b; // khai báo biến con trỏ
+- kiểu dữ liệu của con trỏ không phải là kiểu dữ liệu của nó, mà đó chính
+là kiểu dữ liệu của cái biến mà con trỏ đó trỏ tới
+- con trỏ b chỉ có thể trỏ đến các biến int mà thôi
+- Tính chất của con trỏ là lấy địa chỉ của 1 biến mà nó trỏ đến
+
+- Con trỏ vô kiểu
+void *b : con trỏ này có thể nhận mọi kiểu dữ liệu
+
+- tại sao phải cấp phát vùng nhớ cho con trỏ: bởi vì khi khai báo int *a
+thì con trỏ a không có vùng nhớ để chứa giá trị, vì vậy cấp phát cho con
+trỏ a 1 vùng nhớ hợp lệ để sử dụng con trỏ 1 cách dễ dàng
+
+Trong ngôn ngữ C:
+- malloc: nếu như ta không gán giá trị cho ô nhớ thì nó sẽ mang giá trị rác (giá trị k xác định)
+- calloc: nếu như ta không gán giá trị cho ô nhớ thì nó sẽ mang giá trị là 0
+- realloc: 
+    + nếu như con trỏ chưa hề được cấp phát vùng nhớ thì hàm realloc sẽ cấp phát cho nó một
+    vùng nhớ mới
+    + nếu như con trỏ đã có vùng nhớ thì hàm realloc có tác dụng cấp phát lại vùng nhớ cho con trỏ
+    nghĩa là có thể nới rộng hoặc thu hẹp vùng nhớ

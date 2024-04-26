@@ -1,0 +1,19 @@
+Mục đích chính của vòng lặp là lặp đi lặp lại 1 công việc cụ thể nào đó
+Trong ngôn ngữ lập trình C/C++ có 3 vòng lặp chính thống
++ while, do while, for
+ngoài ra còn có 1 vòng lặp khác: goto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
